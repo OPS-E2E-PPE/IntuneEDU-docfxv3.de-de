@@ -19,7 +19,6 @@
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [
-    "e2e-local",
     "live",
     "master-sxs"
   ],
@@ -29,7 +28,6 @@
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "contribution_branch_mappings": {
-    "e2e-local": "e2e-local-sxs",
     "live-sxs": "live"
   },
   "dependent_repositories": [
@@ -49,12 +47,8 @@
       }
     }
   ],
-  "branch_target_mapping": {
-    "live": [
-      "Publish"
-    ]
-  },
-  "need_generate_pdf_url_template": false,
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
