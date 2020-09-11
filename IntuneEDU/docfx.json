@@ -29,6 +29,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "bilingual_type": "hover over",
       "breadcrumb_path": "/enterprise-mobility-security/toc.json",
       "product_feedback_displaytext": "Intune Feedback",
       "product_feedback_url": "https://microsoftintune.uservoice.com/forums/291681-ideas?category_id=190729",
